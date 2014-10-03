@@ -1,5 +1,48 @@
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 100;
+    src: local("Roboto Thin"), local("Roboto-Thin"), url("http://fonts.gstatic.com/s/roboto/v13/vzIUHo9z-oJ4WgkpPOtg1_esZW2xOQ-xsNqO47m55DA.woff") format("woff");
+}
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    src: local("Roboto Light"), local("Roboto-Light"), url("http://fonts.gstatic.com/s/roboto/v13/Hgo13k-tfSpn0qi1SFdUfT8E0i7KZn-EPnyo3HZu7kw.woff") format("woff");
+}
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Roboto Regular"), local("Roboto-Regular"), url("http://fonts.gstatic.com/s/roboto/v13/2UX7WLTfW3W8TclTUvlFyQ.woff") format("woff");
+}
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Roboto Bold"), local("Roboto-Bold"), url("http://fonts.gstatic.com/s/roboto/v13/d-6IYplOFocCacKzxwXSOD8E0i7KZn-EPnyo3HZu7kw.woff") format("woff");
+}
+
 body {
 	background: #00171F; 
+	font-family: Verdana;
+}
+
+h1{
+	font-family: "Roboto", Arial, sans-serif;
+	font-weight: bold;
+	line-height: 60px; 
+	text-align: center;
+	font-size: 2.5em;
+	background-color: #990000;
+	color: white;
+	margin-bottom: 0px;
+	width: 900px;
+}
+
+h3 {
+	font-family: "Roboto";
+	font-size: 16px;
 }
 
 #masthead {
@@ -17,25 +60,43 @@ body {
 
 #main {
 	padding: 10px;
-	background-color: grey;
+	background-color: #4D4D4D;
 	margin-left: auto ;
 	margin-right: auto ;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	width: 900px;
 	
 }
 
 #content {
+	font-size: 11pt;
 	padding: 20px;
 	margin-top:10px;
 	background-color: silver;
 }
 
-h1{
-	#line-height: 50px; 
-	text-align: center;
-	font-size: 3em;
-	background-color: #990000;
+#footer {
+	font-family: "Roboto";
+	font-size: 10pt;
 	color: white;
-	margin-bottom: 0px;
+	padding: 10px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
 	width: 900px;
+	background-color: #333333;
 }
+
+#leftfooter {
+	font-size: 8pt;
+	float: left;
+	padding: 10px;
+	padding-right: 30px;
+}
+
+#rightfooter {
+	padding: 10px;
+}
+
