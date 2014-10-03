@@ -1,9 +1,37 @@
+#masthead {
+	height: 390px;
+	width: 900px;
+	background-image:url(Northern_lights_over_the_mountain-crop.jpg);
+	position:relative;
+}
+
+#masthead h1
+{
+  position:absolute;
+  bottom:0;
+}
+
+#main {
+	padding: 10px;
+	background-color: grey;
+	margin-left: auto ;
+	margin-right: auto ;
+	width: 900px;
+	
+}
+
+#content {
+	padding: 20px;
+	margin-top:10px;
+	background-color: silver;
+}
+
 h1{
+	#line-height: 50px; 
 	text-align: center;
 	font-size: 3em;
 	background-color: #990000;
 	color: white;
-	padding-top: 0px;
-	margin-top: 0px;
-	border-top: 0px;
+	margin-bottom: 0px;
+	width: 900px;
 }
