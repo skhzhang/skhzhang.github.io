@@ -34,7 +34,7 @@ h1{
 	line-height: 60px; 
 	text-align: center;
 	font-size: 2.5em;
-	background-color: #990000;
+	background-color: #800000;
 	color: white;
 	margin-bottom: 0px;
 	width: 900px;
@@ -59,7 +59,7 @@ a {
 	
 }
 
-#logo {
+#name {
 	font-family: "Roboto";
 	line-height: 40px;
 	color: silver;
@@ -70,19 +70,34 @@ a {
 	left: 33px;
 }
 
+#name:hover {
+	color: orange;
+}
+
 #fb_icon {
 	position: absolute;
 	bottom: 0px;
-	right: 100px;
+	right: 190px;
 }
 
 #twitter_icon {
 	position: absolute;
 	bottom: 0px;
-	right: 50px;
+	right: 140px;
 }
 
 #gplus_icon {
+	position: absolute;
+	bottom: 0px;
+	right: 100px;
+}
+
+#github_icon {
+	position: absolute;
+	bottom: 0px;
+	right: 55px;
+}
+#linkedin_icon {
 	position: absolute;
 	bottom: 0px;
 	right: 10px;
@@ -138,11 +153,11 @@ a {
 	float: left;
 	padding: 10px;
 	padding-right: 30px;
-	width: 30%;
+	#width: 30%;
 }
 
 #rightfooter {
 	#float: right;
 	padding: 10px;
-	width: 70%;
+	#width: 70%;
 }
