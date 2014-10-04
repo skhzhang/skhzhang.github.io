@@ -45,10 +45,53 @@ h3 {
 	font-size: 16px;
 }
 
+a {
+	text-decoration: none;
+}
+
+#topbar {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+	height: 40px;
+	position: relative;
+	
+}
+
+#logo {
+	font-family: "Roboto";
+	line-height: 40px;
+	color: silver;
+	position: absolute;
+	height: 35%;
+	padding: 0px;
+	bottom: 0px;
+	left: 33px;
+}
+
+#fb_icon {
+	position: absolute;
+	bottom: 0px;
+	right: 100px;
+}
+
+#twitter_icon {
+	position: absolute;
+	bottom: 0px;
+	right: 50px;
+}
+
+#gplus_icon {
+	position: absolute;
+	bottom: 0px;
+	right: 10px;
+}
+
 #masthead {
 	height: 390px;
 	width: 900px;
-	background-image:url(Northern_lights_over_the_mountain-crop.jpg);
+	background-image:url(img/Northern_lights_over_the_mountain-crop.jpg);
 	position:relative;
 }
 
@@ -95,9 +138,11 @@ h3 {
 	float: left;
 	padding: 10px;
 	padding-right: 30px;
+	width: 30%;
 }
 
 #rightfooter {
+	#float: right;
 	padding: 10px;
+	width: 70%;
 }
-
