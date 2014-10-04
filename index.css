@@ -23,6 +23,18 @@
     src: local("Roboto Bold"), local("Roboto-Bold"), url("http://fonts.gstatic.com/s/roboto/v13/d-6IYplOFocCacKzxwXSOD8E0i7KZn-EPnyo3HZu7kw.woff") format("woff");
 }
 
+.fb-like { 
+	padding: 0px;
+}
+
+.twitter-share-button {
+	padding: 0px;
+}
+
+.g-plusone {
+	padding: 0px;
+}
+
 body {
 	background: #00171F; 
 	font-family: Verdana;
