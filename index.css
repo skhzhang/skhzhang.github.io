@@ -59,7 +59,17 @@ a {
 	
 }
 
-#name {
+.nameCircle {
+	border-radius: 50%;
+	width: 14px;
+	height: 14px;
+	position: absolute;
+	bottom: 5px;
+	left: 10px;
+	background: #F57A00;
+}
+
+.name {
 	font-family: "Roboto";
 	line-height: 40px;
 	color: silver;
@@ -70,26 +80,26 @@ a {
 	left: 33px;
 }
 
-#name:hover {
-	color: orange;
+.name:hover {
+	color: #F57A00;
 }
 
 #fb_icon {
 	position: absolute;
 	bottom: 0px;
-	right: 190px;
+	right: 185px;
 }
 
 #twitter_icon {
 	position: absolute;
 	bottom: 0px;
-	right: 140px;
+	right: 135px;
 }
 
 #gplus_icon {
 	position: absolute;
 	bottom: 0px;
-	right: 100px;
+	right: 95px;
 }
 
 #github_icon {
