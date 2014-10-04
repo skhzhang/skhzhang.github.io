@@ -28,11 +28,6 @@ body {
 	font-family: Verdana;
 }
 
-#frame {
-	border: 10px;
-	border-color: black;
-}
-
 h1{
 	font-family: "Roboto", Arial, sans-serif;
 	font-weight: bold;
@@ -52,15 +47,19 @@ h3 {
 
 a {
 	text-decoration: none;
-	color: #FF7B24;
+	color: #FF8B3D;
 }
 
 a:visited {
-	color: #C24E00;
+	color: #A84300;
 }
 
 a:active{
 	color: #FF9A57;
+}
+
+a:hovered {
+	text-decoration: underline;
 }
 
 #topbar {
@@ -173,7 +172,7 @@ a:active{
 	margin-right: auto;
 	margin-bottom: 20px;
 	width: 900px;
-	background-color: #333333;
+	background-color: #333333;'[
 }
 
 #leftfooter {
