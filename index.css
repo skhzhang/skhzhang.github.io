@@ -148,12 +148,36 @@ a:active{
 	width: 900px;
 	background-image:url(img/Northern_lights_over_the_mountain-crop.jpg);
 	position:relative;
+	margin: 0px;
 }
 
 #masthead h1
 {
-  position:absolute;
-  bottom:0;
+	position:absolute;
+	bottom:0;
+}
+
+#navmenu {
+	margin-top: 0px;
+	margin-bottom: 10px;
+	background-color: #660000;
+	border: 0px;
+}
+
+ul.navmenu{
+	margin: 0px;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: center;
+}
+
+li.navlink {
+	font-family: "Roboto";
+	display: inline;
+	background-color: #660000;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: white;
 }
 
 #main {
