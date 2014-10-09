@@ -143,23 +143,45 @@ h3 {
 	right: 10px;
 }
 
+.circular-image img {
+    width: 175px;
+    height: 175px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	top: 105px;
+	position: relative;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    -ms-border-radius: 150px;
+    -o-border-radius: 150px;
+    border-radius: 150px;
+	position: center;
+	opacity: 0.85;
+}
+
 #masthead {
-	height: 400px;
+	height: 315px;
+	#height: 105px;
 	width: 900px;
+	background-color: #00171F;
 	background-image:url(img/Northern_lights_over_the_mountain-crop.jpg);
 	position:relative;
-	margin: 0px;
 }
 
 #masthead h1 {
-	position:absolute;
-	bottom:0;
+	position: absolute;
+	bottom: 25px;
+	opacity: 0.75;
 }
 
 #mastheadbottom {
 	width: 900px;
-	height: 10px;
+	height: 15px;
+	position: absolute;
+	bottom: 10px;
 	background-color: #660000;
+	opacity: 0.75;
 }
 
 #navmenu {
@@ -190,8 +212,10 @@ li.navlink {
 }
 
 #main {
-	padding: 10px;
-	background-color: #4D4D4D;
+	padding: 0px;
+	padding-top: 0px;
+	background-color: #00171F;
+	#background-color: silver;
 	margin-left: auto ;
 	margin-right: auto ;
 	margin-top: 20px;
@@ -202,8 +226,11 @@ li.navlink {
 
 #content {
 	font-size: 11pt;
-	padding: 20px;
-	margin-top:10px;
+	margin: 0px;
+	margin-top: 15px;
+	padding: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	background-color: silver;
 }
 
@@ -215,9 +242,9 @@ img.potato-salad {
 	font-family: "Roboto";
 	font-size: 10pt;
 	color: white;
-	padding: 10px;
+	padding: 0px;
 	padding-top: 20px;
-	padding-bottom: 30px;
+	padding-bottom: 20px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 20px;
@@ -228,13 +255,15 @@ img.potato-salad {
 #leftfooter {
 	font-size: 8pt;
 	float: left;
-	padding: 10px;
+	padding: 0px;
 	padding-right: 30px;
+	padding-left: 10px;
 	#width: 30%;
 }
 
 #rightfooter {
 	#float: right;
-	padding: 10px;
+	padding: 0px;
+	padding-right: 10px;
 	#width: 70%;
 }
