@@ -13,9 +13,8 @@ a:hover {
 	text-decoration: underline;
 }
 
-
-ul {
-	list-style: disc inside;
+li {
+	list-style-type: disc;
 }
 
 #header {
@@ -33,7 +32,7 @@ ul {
 	
 	display: inline-block;
 	position: relative;
-	right: 2%;
+	right: 1%;
 }
 
 #name a {
@@ -67,8 +66,33 @@ h5 {
 	font-weight: bold;
 }
 
-.one-third {
+li.navlink {
+	display: inline;
+	list-style-type: none;
+	margin: 10px;
+}
+
+.navlink a {
+	text-decoration: none;
+}
+
+.box {
 	background-color: lightgray;
 	padding: 1%;
 	margin-bottom: 3%;
+	box-shadow: 2px 2px 2px 2px rgba(38,38,38,15);
+}
+
+#footer {
+	color: #3D3D3D;
+	background-color: #001117;
+	font-size: 8pt;
+	margin-top: 2%;
+	border: 0px;
+}
+
+#footer .box {
+	background-color: #001117;
+	margin-top: 2%;
+	box-shadow: none;
 }
