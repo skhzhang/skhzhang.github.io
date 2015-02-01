@@ -4,11 +4,12 @@ body {
 }
 
 a {
-  color: #D15600; 
+	color: #D15600; 
 	text-decoration: none;
 }
 
 a:hover {
+	color: #D15600; 
 	text-decoration: underline;
 }
 
