@@ -1,58 +1,151 @@
+---
+# Main page for simonkhzhang.me
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-  <meta http-equiv="refresh" content="3; URL='http://simonkhzhang.me'" />
 
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>Simon Zhang</title>
-  <meta name="description" content="Simon Zhang's website">
   <meta name="author" content="Simon Zhang">
+  <meta name="description" content="Resume, portfolio, and contact info for Simon Zhang, a software developer based in Toronto, Ontario.">
+  <meta name="theme-color" content="#3D6C7A"> <!-- colour in Chrome mobile -->
+
+  <meta property="og:title" content="Simon Zhang">
+  <meta property="og:description" content="Resume, portfolio, and contact info for Simon Zhang, a software developer based in Toronto, Ontario.">
+  <meta property="og:image" content="assets/images/screenshot-simonkhzhang-me-main.png">
+  <meta property="og:url" content="http://simonkhzhang.me">
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-  <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
-
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/custom.css">
-  <!--<link rel="stylesheet" href="css/bootstrap.custom.css">-->
+  <link rel="stylesheet" href="assets/css/normalize.css">
+  <link rel="stylesheet" href="assets/css/skeleton.css">
+  <link rel="stylesheet" href="assets/css/custom.css">
 
   <!-- JS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script src="js/jquery-2.1.3.js"></script>
-  <script src="js/jquery-ui.js"></script>
-  <script src="js/custom.js" type="text/javascript"></script>
+  <script src="assets/js/jquery-3.2.1.min.js"></script>
+  <script src="assets/js/jquery-ui.min.js"></script>
+  <script src="assets/js/custom.js" type="text/javascript"></script>
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="icons/orange-circle.png" type="icon/png" rel="icon" />
+  <link href="assets/images/avatar3-200px.jpg" type="icon/jpg" rel="icon" />
 
+  <!-- Google Analytics tracking
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="assets/js/analytics.js" type="text/javascript"></script>
 </head>
 <body>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<!-- NAVBAR - START -->
 
-<div class="main">
-	<span style="color: white;">
-		Site has moved. <br/>
-		Redirecting to <a href="http://simonkhzhang.me">simonkhzhang.me</a>...
-	</span>
+{% include navbar.html %}
+
+<!-- NAVBAR - END -->
+
+<!-- OVERLAY: to appear when navbar expands -->
+<div class="overlay" style="display: none;"></div>
+
+<div id="main">
+
+  <!-- TOPBAR - START -->
+  {% include topbar.html %}
+  <!-- TOPBAR - END -->
+
+  <div class="curtain"></div>
+  <div class="content">
+
+    <!-- TITLE -->
+    <section class="profile-cover section">
+      <div class="avatar">
+        <img src="assets/images/avatar3-200px.jpg" alt='Simon' height="200" width="200" />
+      </div>
+      <a href="./">
+        <div class="name">
+          <span class="title" style="font-size: 30pt">Simon Zhang</span>
+        </div>
+      </a>
+    </section>
+
+    <!-- ABOUT / BIO -->
+    <section class="section" id="about">
+      <div class="section-content" id="front-bio">
+        <p>👋 <strong>Hi there, I’m Simon!</strong> I work full-time as a <strong>Junior Integrations Developer</strong> at <a href="https://cmicglobal.com/" target="_blank">CMiC</a> and I am a Computer Science grad from <a href="http://queensu.ca" target="_blank">Queen's University</a>. 
+
+        <p>I am based in <strong>Toronto, Ontario</strong> and I like to build software with clean, reliable, maintainable code. What I like to focus on most is building for the web and making software work for people (remember the human).</p>
+
+        <p>For more about me: see my <a href="documents/Simon_Zhang_resume.pdf" target="_blank">resume <img src="assets/icons/professional5.png" alt="Resume" style="width: 18px;"/></a>, my <a href="#projects">project below</a> or <a href="#contact">connect with me</a>.</p>
+      </div>
+    </section>
+
+    <div id="projects">
+
+    <!-- TIME-BASED THEME CHANGER -->
+    <section class="curtain-end item-section section">
+      <div class="first-item item-container section-content automaticdark" style=" color: white;">
+        <div class="item-image" 
+           style="background-image: url('./projects/images/automatic-dark/automaticdark-options-1.3.0-2.png');">
+        </div>
+        <div class="item-details">
+          <span class="item-title">automaticDark - Time-Based Theme Changer</span>
+
+          <div class="item-tags">
+            <span>JavaScript</span><span>HTML</span>
+          </div>
+
+          <p>A Firefox WebExtension that allows you to automatically switch between your themes based on the current time.</p>
+
+          <p>Set Firefox to change the UI to a dark theme during the night and change back to a light theme during the day.</p>
+
+          <div class="item-links">
+            <a href="https://github.com/skhzhang/time-based-themes" target="_blank">
+              <button class="item-link"><img src="./assets/icons/GitHub-Mark-64px.png"/> Github</button>
+            </a>
+            
+            <a href="https://addons.mozilla.org/en-US/firefox/addon/automatic-dark/" target="_blank">
+              <button class="item-link"><img src="./assets/icons/puzzle-piece-64.png"/> View on Firefox Addons</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    </div> <!-- end #projects -->
+
+    <!-- CONTACT -->
+    <section class="section" style="background-color: #000;">
+      <div class="content-row section-content" 
+         id="contact" 
+         style="color: white; margin-top: 0;">
+
+        <h3>Contact</h3>
+        <p>Let's connect! If you want to contact me, the best way is <br/> by 
+              <a href="mailto:simonkhzhang@gmail.com">email (simonkhzhang@gmail.com) <img src="assets/icons/email6-white.png" alt="Email" style="width: 18px;"/></a>, on 
+              <a href="http://linkedin.com/in/skhzhang" target="_blank">LinkedIn <img src="assets/icons/In-2C-75px.png" alt="LinkedIn" style="height: 16px;"/></a> or on 
+              <a href="http://github.com/skhzhang" target="_blank">Github <img src="assets/icons/GitHub-Mark-Light-64px.png" alt="Github" style="height: 16px;"/></a>.
+            </li>
+          </ul>
+        </p>
+      </div>
+    </section>
+
+  </div>
+
 </div>
 
-<a href="#"><div id='toTop'></div></a>
+<!-- FOOTER -->
+{% include footer.html %}
 
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
+
+  <!-- FONTS (load these last)
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,700,500,300,400italic' rel='stylesheet' type='text/css'>
 </html>
