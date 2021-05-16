@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/szhang
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://simonkhzhang.me
+  * I am szhang (https://keybase.io/szhang) on keybase.
+  * I have a public key with fingerprint 6380 E2AF 0CC4 03E2 632D  7FDB 7ABC F040 728F 57EE
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101008dea4ca0e2bc766cf9b4daa11a52604d9f1f007e4e89067d4f514e5b03ad940a",
+            "fingerprint": "6380e2af0cc403e2632d7fdb7abcf040728f57ee",
+            "host": "keybase.io",
+            "key_id": "7abcf040728f57ee",
+            "kid": "0101008dea4ca0e2bc766cf9b4daa11a52604d9f1f007e4e89067d4f514e5b03ad940a",
+            "uid": "d7fee49f386bcd86f489cc8bd8fc2b19",
+            "username": "szhang"
+        },
+        "service": {
+            "hostname": "simonkhzhang.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1458254639,
+    "expire_in": 157680000,
+    "prev": "6984db1a06cb39e21380dd2fd040f03f2e27f39046f68e1fb813420349220fdc",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.51
+Comment: https://keybase.io/crypto
+
+yMIlAnicrVJbSFRBGF61DEVLKYSMUE5WEGvNmTN7LttNiNCHfIgkE4Rt5szM7kE9
+Z909btlmUXShwCgfukIUXQgqgzAqJKgMKgwzI+1F8oJGVhQVgZTVnCXfemzmYZj/
+/75vvv+f/1Fuhi87rXiypntw39xQWveDE02+ze+VFUmJOLRZCialOpY6WD1lcTdU
+Z1EpKAFZbKBThpGJAYPE1FTV5AZBFGNZxgGoAkQNLnMANIaYbgBVo4gHZMQCBCiY
+GghgyS9xyw6zWDRm2a6QVRVdiGEOTBMBhUFVgVTjlGiYmBwgoEGdBzTGBDHixD2G
+MEdwnC23HBETl1DK3j/w/9l3U0pOmGMMGVzRVWJSXeVIN0xTJ1TnJiSy4QHjLGbj
+BibQ8R0RbIelFr8kYgnLZF5bvTqm81aDY9dFUqjlDZ7paMxxHdOpF8mI60aDHtdt
+jnrgbYyE/sqEiGVT0UdBSLBY3HJsKSgLpOlanq6MAjoMIFUx/BLbHrViLGR5iICm
+6kAs7xmW8Lpv6IgSGQPVJIrBoCx+g1LIqegkBwqHDGpcMQBSuaozmRNdVhAECjIg
+BJyakldYo+1IQV3YxOFUSWEbu00xJrU8vF87w5eW7cucme7Nly87K2966pJLZ/1a
+3NjUmf6tpLENXU1mT14aG6v89LLnyUk+61pgnnX+8vbMoWSks2t4cmiq1Q4WdIE5
+z3NyIGzYW1079HVJadXcqu/HPnffOfPlbunA6E2j+ufIlcF3q0akLWl9ZM+FIx19
+WyY+lGWNtyzLHSoLa72/Xg7jXUXsd3uHu7O5Z+Btay4pzGgtP3xg/Hf/QEn++L2a
+g4tC6v7S9tdbvxReL3t8e8OPvaNFczLzZ5cUtd5qebVu043JqWcF46emKoYnVlbO
+7wtfzZjw5x3tWahsfJO8sSCxJta5Y3fF+ge5T+2LbXLvims+/KL4+ED52pEufleG
+idPvrveGz81T6z6ePRQcUftX/wGYO0dG
+=0tE/
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/szhang
+
+==================================================================
