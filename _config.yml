@@ -27,6 +27,9 @@ url: "https://simonkhzhang.me" # the base hostname & protocol for your site, e.g
 #twitter_username: jekyllrb
 github_username:  skhzhang
 
+# Google Analytics
+google_analytics: UA-61912243-1
+
 # Build settings
 #theme: minima
 #plugins:
